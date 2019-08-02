@@ -24,7 +24,7 @@ namespace MyFirstConsoleApp
                 }
                 catch (FormatException)
                 {
-                    Console.WriteLine("Du skal altså putte et tal ind!! Prøv igen");
+                    Console.WriteLine("Du skal altså putte et tal ind!! Prøv igen!");
                 }
             }
         }
