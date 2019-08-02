@@ -15,11 +15,11 @@ namespace MyFirstConsoleApp
             {
                 try
                 {
-                    Console.WriteLine("Hej med dig!");
-                    Console.Write("Put et tal ind her:");
+                    Console.WriteLine("Hej med dig! \nDette program kan kvadratrode af et indtastet tal!");
+                    Console.Write("Put et tal ind her: \n");
                     string val = Console.ReadLine();
-                    int a = Convert.ToInt32(val);
-                    Console.WriteLine("Du puttede {0} ind!", a);
+                    double a = Math.Sqrt(Convert.ToDouble(val));
+                    Console.WriteLine("Kvadratroden af {0} er {1}!", val,a);
                     t = false;
                 }
                 catch (FormatException)
